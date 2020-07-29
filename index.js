@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var port = 443;
+var port = 80;
 
 app.listen(port, () => console.log(`Redirect form app now on and listening on ${port}`));
 
